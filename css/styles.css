@@ -10,12 +10,38 @@ body {
     font-family: "Roboto", sans-serif;  
     font-weight: 400;
     letter-spacing: 0,03em;
-
 }
+
+p,
+h1, 
+h2,
+h3,
+h4,
+h5, 
+h6,
+ul, 
+li {
+margin: 0;
+padding-left: 0;
+}
+
 .list {
     list-style: none;
 }
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
+}
 /* Шапка */
+
+.header {
+    padding: 32px;
+    padding-bottom: 32px;
+}
 .logo {
     color: var(--title-text-color) ;
     font-family: "Raleway", sans-serif;
@@ -65,6 +91,16 @@ body {
 
 /* Герой */
 
+.hero{
+    padding-top: 200px;
+    padding-bottom: 280px;
+    text-align: center;
+}
+
+.hero-btn {
+    border-radius: 4px;
+}
+
 .hero .hero-btn {
     font-family: inherit;
     color: var(--primary-bg-color);
@@ -87,19 +123,25 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding-bottom: 40px;
 }
+
 
 /* Преимущества */
 
 .benefits-title {
+    padding-top: 94px;
+    padding-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-color);
+
 }
-.benefits-text {  
+.benefits-text { 
+    padding-bottom: 94px; 
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -121,10 +163,25 @@ body {
     color: var(--title-text-color); 
 }
 
+.service-title {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+.service-list .list {
+    padding-bottom: 94px;
+}
+
 /* Team */
+
+.section-title {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
 
 .section-team {
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
     }
 
 .list .title {
@@ -145,6 +202,10 @@ body {
 
 /* Footer */
 
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .footer .logo {
     color: var(--primary-bg-color);
 }
@@ -181,6 +242,11 @@ body {
 }
 
 /* Portfolio styles */
+
+.projects {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .projects-btn {
     font-family: inherit;
