@@ -39,9 +39,11 @@ padding-left: 0;
 /* Шапка */
 
 .header {
-    padding: 32px;
+    padding-top: 32px;
     padding-bottom: 32px;
+    border: 1px solid rgba(0, 0, 0, 1);
 }
+
 .logo {
     color: var(--title-text-color) ;
     font-family: "Raleway", sans-serif;
@@ -89,11 +91,17 @@ padding-left: 0;
     color: var(--accent-color);
 }
 
+a {
+    display: block;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
 /* Герой */
 
 .hero{
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     text-align: center;
 }
 
@@ -116,6 +124,7 @@ padding-left: 0;
 
 .hero-title {
     color: var(--primary-bg-color);
+    max-width: 700px;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -130,8 +139,7 @@ padding-left: 0;
 /* Преимущества */
 
 .benefits-title {
-    padding-top: 94px;
-    padding-bottom: 10px;
+   margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -141,7 +149,7 @@ padding-left: 0;
 
 }
 .benefits-text { 
-    padding-bottom: 94px; 
+    margin-bottom: 94px; 
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -163,19 +171,17 @@ padding-left: 0;
     color: var(--title-text-color); 
 }
 
-.service-title {
-    padding-top: 94px;
-    padding-bottom: 50px;
+.service {
+    padding-top: 50px;
+    padding-bottom: 94px;
 }
 .service-list .list {
     padding-bottom: 94px;
 }
 
 /* Team */
-
-.section-title {
-    padding-top: 94px;
-    padding-bottom: 50px;
+img {
+    display: block;
 }
 
 .section-team {
@@ -199,6 +205,17 @@ padding-left: 0;
         line-height: 1.19;
 }
 
+.team {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-right:  1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+
+.team-img {
+    padding-top: 186px;
+}
 
 /* Footer */
 
@@ -279,6 +296,7 @@ padding-left: 0;
     background-color: var(--accent-color);
 }
 
+
 /* .button-list {
     display: flex; 
     flex-wrap: nowrap;
@@ -290,6 +308,14 @@ padding-left: 0;
     margin-left: 10px;
 
 } */
+
+.portfolio {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;  
+    border-left: 1px solid #000000;
+}
 
 .container .projects-title {
     font-weight: 700;
