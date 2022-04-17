@@ -341,6 +341,7 @@ padding-left: 0;
     flex-wrap: nowrap;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 50px;
 } 
 
 .projects-btn {
@@ -356,8 +357,9 @@ padding-left: 0;
     }
 
 .btn-item:first-child {
-    margin-left: 495px;
-    width: 73px;
+    margin-left: auto;
+    margin-right: 8px;
+    max-width: 73px;
 }
 .btn-item:ntn-child(2){
     min-width: 128px;
@@ -372,7 +374,7 @@ padding-left: 0;
 }
 
 .btn-item:last-child {
-    margin-right: 516px;
+    margin-right: auto;
     min-width: 130px;
 
 }
