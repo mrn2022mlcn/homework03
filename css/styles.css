@@ -362,20 +362,20 @@ padding-left: 0;
     max-width: 73px;
 }
 .btn-item:ntn-child(2){
-    min-width: 128px;
+    max-width: 128px;
 }
 
 .btn-item:ntn-child(3){
-    min-width: 145px;
+    max-width: 145px;
 }
 
 .btn-item:ntn-child(4) {
-   min-width: 103px;
+   max-width: 103px;
 }
 
 .btn-item:last-child {
     margin-right: auto;
-    min-width: 130px;
+    max-width: 130px;
 
 }
 .projects-btn:hover,
