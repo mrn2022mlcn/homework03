@@ -39,8 +39,8 @@ padding-left: 0;
 /* Шапка */
 
 .header {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -166,7 +166,6 @@ padding-left: 0;
 /* Преимущества */
 .benefits {
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 .benefits-list {
     display: flex;
@@ -277,7 +276,7 @@ padding-left: 0;
 
 /* Footer */
 
-.footer .container {
+.footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -317,8 +316,12 @@ padding-left: 0;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.address-content {
-    margin-top: 20px;
+.address-text {
+    margin-top: 20px; 
+}
+
+.address-contacts {
+    margin-bottom: 9px;
 }
 
 /* Portfolio styles */
@@ -400,7 +403,9 @@ padding-left: 0;
 
 .portfolio {
     padding: 20px 24px 20px 24px;
-    border-bottom: 1px solid #EEEEEE;  
+    border-right: 1px solid #EEEEEE; 
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE; 
 }
 
 .container .projects-title {
@@ -418,6 +423,9 @@ padding-left: 0;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+/* .projects-text {
+    margin-bottom: 20px;
+} */
 
 
 .projects-list  {
