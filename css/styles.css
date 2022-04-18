@@ -319,9 +319,11 @@ padding-left: 0;
 .address-text {
     margin-top: 20px; 
 }
-
 .address-contacts {
-    margin-bottom: 9px;
+    list-style: none;
+}
+.address-link {
+    margin-top: 9px;
 }
 
 /* Portfolio styles */
